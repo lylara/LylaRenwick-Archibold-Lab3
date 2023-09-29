@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3359A6E32AC7761400EE31A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A6E22AC7761400EE31A6 /* AppDelegate.swift */; };
+		3359A6E52AC7761400EE31A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A6E42AC7761400EE31A6 /* SceneDelegate.swift */; };
+		3359A6E72AC7761400EE31A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A6E62AC7761400EE31A6 /* ViewController.swift */; };
+		3359A6EA2AC7761400EE31A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3359A6E82AC7761400EE31A6 /* Main.storyboard */; };
+		3359A6EC2AC7761400EE31A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3359A6EB2AC7761400EE31A6 /* Assets.xcassets */; };
+		3359A6EF2AC7761400EE31A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3359A6ED2AC7761400EE31A6 /* LaunchScreen.storyboard */; };
+		3359A6FA2AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A6F92AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3Tests.swift */; };
+		3359A7042AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A7032AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITests.swift */; };
+		3359A7062AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A7052AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITestsLaunchTests.swift */; };
+		3359A7132AC7762C00EE31A6 /* DrawingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A7122AC7762B00EE31A6 /* DrawingItem.swift */; };
+		3359A7152AC7763200EE31A6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A7142AC7763200EE31A6 /* DrawingView.swift */; };
+		3359A7172AC7763700EE31A6 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3359A7162AC7763700EE31A6 /* Shape.swift */; };
+		33C0B7D42ACC911D00A6876E /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0B7D32ACC911D00A6876E /* Functions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3359A6F62AC7761400EE31A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3359A6D72AC7761300EE31A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3359A6DE2AC7761400EE31A6;
+			remoteInfo = "LylaRenwick-Archibold-Lab3";
+		};
+		3359A7002AC7761400EE31A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3359A6D72AC7761300EE31A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3359A6DE2AC7761400EE31A6;
+			remoteInfo = "LylaRenwick-Archibold-Lab3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3359A6DF2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LylaRenwick-Archibold-Lab3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3359A6E22AC7761400EE31A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3359A6E42AC7761400EE31A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3359A6E62AC7761400EE31A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3359A6E92AC7761400EE31A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3359A6EB2AC7761400EE31A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3359A6EE2AC7761400EE31A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3359A6F02AC7761400EE31A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3359A6F52AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LylaRenwick-Archibold-Lab3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3359A6F92AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LylaRenwick_Archibold_Lab3Tests.swift; sourceTree = "<group>"; };
+		3359A6FF2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LylaRenwick-Archibold-Lab3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3359A7032AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LylaRenwick_Archibold_Lab3UITests.swift; sourceTree = "<group>"; };
+		3359A7052AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LylaRenwick_Archibold_Lab3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3359A7122AC7762B00EE31A6 /* DrawingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingItem.swift; sourceTree = "<group>"; };
+		3359A7142AC7763200EE31A6 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		3359A7162AC7763700EE31A6 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		33C0B7D32ACC911D00A6876E /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3359A6DC2AC7761400EE31A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3359A6F22AC7761400EE31A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3359A6FC2AC7761400EE31A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3359A6D62AC7761300EE31A6 = {
+			isa = PBXGroup;
+			children = (
+				3359A6E12AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3 */,
+				3359A6F82AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3Tests */,
+				3359A7022AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3UITests */,
+				3359A6E02AC7761400EE31A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3359A6E02AC7761400EE31A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3359A6DF2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3.app */,
+				3359A6F52AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3Tests.xctest */,
+				3359A6FF2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3359A6E12AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				3359A6E22AC7761400EE31A6 /* AppDelegate.swift */,
+				33C0B7D32ACC911D00A6876E /* Functions.swift */,
+				3359A6E42AC7761400EE31A6 /* SceneDelegate.swift */,
+				3359A6E62AC7761400EE31A6 /* ViewController.swift */,
+				3359A7162AC7763700EE31A6 /* Shape.swift */,
+				3359A7122AC7762B00EE31A6 /* DrawingItem.swift */,
+				3359A7142AC7763200EE31A6 /* DrawingView.swift */,
+				3359A6E82AC7761400EE31A6 /* Main.storyboard */,
+				3359A6EB2AC7761400EE31A6 /* Assets.xcassets */,
+				3359A6ED2AC7761400EE31A6 /* LaunchScreen.storyboard */,
+				3359A6F02AC7761400EE31A6 /* Info.plist */,
+			);
+			path = "LylaRenwick-Archibold-Lab3";
+			sourceTree = "<group>";
+		};
+		3359A6F82AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3359A6F92AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3Tests.swift */,
+			);
+			path = "LylaRenwick-Archibold-Lab3Tests";
+			sourceTree = "<group>";
+		};
+		3359A7022AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3359A7032AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITests.swift */,
+				3359A7052AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITestsLaunchTests.swift */,
+			);
+			path = "LylaRenwick-Archibold-Lab3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3359A6DE2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3359A7092AC7761400EE31A6 /* Build configuration list for PBXNativeTarget "LylaRenwick-Archibold-Lab3" */;
+			buildPhases = (
+				3359A6DB2AC7761400EE31A6 /* Sources */,
+				3359A6DC2AC7761400EE31A6 /* Frameworks */,
+				3359A6DD2AC7761400EE31A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LylaRenwick-Archibold-Lab3";
+			productName = "LylaRenwick-Archibold-Lab3";
+			productReference = 3359A6DF2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3359A6F42AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3359A70C2AC7761400EE31A6 /* Build configuration list for PBXNativeTarget "LylaRenwick-Archibold-Lab3Tests" */;
+			buildPhases = (
+				3359A6F12AC7761400EE31A6 /* Sources */,
+				3359A6F22AC7761400EE31A6 /* Frameworks */,
+				3359A6F32AC7761400EE31A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3359A6F72AC7761400EE31A6 /* PBXTargetDependency */,
+			);
+			name = "LylaRenwick-Archibold-Lab3Tests";
+			productName = "LylaRenwick-Archibold-Lab3Tests";
+			productReference = 3359A6F52AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3359A6FE2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3359A70F2AC7761400EE31A6 /* Build configuration list for PBXNativeTarget "LylaRenwick-Archibold-Lab3UITests" */;
+			buildPhases = (
+				3359A6FB2AC7761400EE31A6 /* Sources */,
+				3359A6FC2AC7761400EE31A6 /* Frameworks */,
+				3359A6FD2AC7761400EE31A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3359A7012AC7761400EE31A6 /* PBXTargetDependency */,
+			);
+			name = "LylaRenwick-Archibold-Lab3UITests";
+			productName = "LylaRenwick-Archibold-Lab3UITests";
+			productReference = 3359A6FF2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3359A6D72AC7761300EE31A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3359A6DE2AC7761400EE31A6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3359A6F42AC7761400EE31A6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3359A6DE2AC7761400EE31A6;
+					};
+					3359A6FE2AC7761400EE31A6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3359A6DE2AC7761400EE31A6;
+					};
+				};
+			};
+			buildConfigurationList = 3359A6DA2AC7761300EE31A6 /* Build configuration list for PBXProject "LylaRenwick-Archibold-Lab3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3359A6D62AC7761300EE31A6;
+			productRefGroup = 3359A6E02AC7761400EE31A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3359A6DE2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3 */,
+				3359A6F42AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3Tests */,
+				3359A6FE2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3359A6DD2AC7761400EE31A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3359A6EF2AC7761400EE31A6 /* LaunchScreen.storyboard in Resources */,
+				3359A6EC2AC7761400EE31A6 /* Assets.xcassets in Resources */,
+				3359A6EA2AC7761400EE31A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3359A6F32AC7761400EE31A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3359A6FD2AC7761400EE31A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3359A6DB2AC7761400EE31A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3359A6E72AC7761400EE31A6 /* ViewController.swift in Sources */,
+				3359A7172AC7763700EE31A6 /* Shape.swift in Sources */,
+				3359A6E32AC7761400EE31A6 /* AppDelegate.swift in Sources */,
+				33C0B7D42ACC911D00A6876E /* Functions.swift in Sources */,
+				3359A7152AC7763200EE31A6 /* DrawingView.swift in Sources */,
+				3359A6E52AC7761400EE31A6 /* SceneDelegate.swift in Sources */,
+				3359A7132AC7762C00EE31A6 /* DrawingItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3359A6F12AC7761400EE31A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3359A6FA2AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3359A6FB2AC7761400EE31A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3359A7042AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITests.swift in Sources */,
+				3359A7062AC7761400EE31A6 /* LylaRenwick_Archibold_Lab3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3359A6F72AC7761400EE31A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3359A6DE2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3 */;
+			targetProxy = 3359A6F62AC7761400EE31A6 /* PBXContainerItemProxy */;
+		};
+		3359A7012AC7761400EE31A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3359A6DE2AC7761400EE31A6 /* LylaRenwick-Archibold-Lab3 */;
+			targetProxy = 3359A7002AC7761400EE31A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3359A6E82AC7761400EE31A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3359A6E92AC7761400EE31A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3359A6ED2AC7761400EE31A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3359A6EE2AC7761400EE31A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3359A7072AC7761400EE31A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3359A7082AC7761400EE31A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3359A70A2AC7761400EE31A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSXRWLKQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LylaRenwick-Archibold-Lab3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileappdev.LylaRenwick-Archibold-Lab3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3359A70B2AC7761400EE31A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSXRWLKQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LylaRenwick-Archibold-Lab3/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileappdev.LylaRenwick-Archibold-Lab3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3359A70D2AC7761400EE31A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSXRWLKQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileappdev.LylaRenwick-Archibold-Lab3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LylaRenwick-Archibold-Lab3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LylaRenwick-Archibold-Lab3";
+			};
+			name = Debug;
+		};
+		3359A70E2AC7761400EE31A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSXRWLKQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileappdev.LylaRenwick-Archibold-Lab3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LylaRenwick-Archibold-Lab3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LylaRenwick-Archibold-Lab3";
+			};
+			name = Release;
+		};
+		3359A7102AC7761400EE31A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSXRWLKQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileappdev.LylaRenwick-Archibold-Lab3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LylaRenwick-Archibold-Lab3";
+			};
+			name = Debug;
+		};
+		3359A7112AC7761400EE31A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WSXRWLKQD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobileappdev.LylaRenwick-Archibold-Lab3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LylaRenwick-Archibold-Lab3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3359A6DA2AC7761300EE31A6 /* Build configuration list for PBXProject "LylaRenwick-Archibold-Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3359A7072AC7761400EE31A6 /* Debug */,
+				3359A7082AC7761400EE31A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3359A7092AC7761400EE31A6 /* Build configuration list for PBXNativeTarget "LylaRenwick-Archibold-Lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3359A70A2AC7761400EE31A6 /* Debug */,
+				3359A70B2AC7761400EE31A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3359A70C2AC7761400EE31A6 /* Build configuration list for PBXNativeTarget "LylaRenwick-Archibold-Lab3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3359A70D2AC7761400EE31A6 /* Debug */,
+				3359A70E2AC7761400EE31A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3359A70F2AC7761400EE31A6 /* Build configuration list for PBXNativeTarget "LylaRenwick-Archibold-Lab3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3359A7102AC7761400EE31A6 /* Debug */,
+				3359A7112AC7761400EE31A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3359A6D72AC7761300EE31A6 /* Project object */;
+}
